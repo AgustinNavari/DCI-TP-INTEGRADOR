@@ -1408,7 +1408,7 @@
 		(uuid "2f8b02d1-137b-44f4-9747-3ac26ddd308e")
 	)
 	(junction
-		(at 99.06 44.45)
+		(at 99.06 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5978b29f-81c8-405c-9940-bc1c1db62f1a")
@@ -1444,16 +1444,22 @@
 		(uuid "79271cde-8bd1-441a-96fe-d07cca42d915")
 	)
 	(junction
-		(at 86.36 44.45)
+		(at 86.36 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e23f03f-4994-4f66-8468-15bf30bf095d")
 	)
 	(junction
-		(at 77.47 44.45)
+		(at 77.47 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5cac7c7-b730-4012-ba5d-6af262229855")
+	)
+	(junction
+		(at 160.02 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd686ca4-e260-456f-aa1b-48e28ef5ad46")
 	)
 	(junction
 		(at 125.73 27.94)
@@ -1468,13 +1474,19 @@
 		(uuid "d332de02-1d6b-4a04-9f28-9aaefff85830")
 	)
 	(junction
-		(at 111.76 44.45)
+		(at 111.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9bcab03-054e-44cd-911a-07231fcb8a43")
 	)
 	(junction
-		(at 125.73 44.45)
+		(at 173.99 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc1187c-2055-4208-8b13-aea3164468da")
+	)
+	(junction
+		(at 125.73 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbf10617-cbbc-4d88-9ffb-944b4add7f1b")
@@ -1511,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 45.72) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b65ca59-85f4-4700-84c3-198b06c2d426")
+	)
+	(wire
+		(pts
 			(xy 139.7 27.94) (xy 139.7 29.21)
 		)
 		(stroke
@@ -1531,13 +1553,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 44.45) (xy 77.47 48.26)
+			(xy 77.47 45.72) (xy 77.47 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "244c20f1-f91a-4dca-8024-a0286d2d7cb5")
+	)
+	(wire
+		(pts
+			(xy 160.02 27.94) (xy 173.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250a15ef-161a-454b-b456-6bc759d89188")
+	)
+	(wire
+		(pts
+			(xy 160.02 36.83) (xy 160.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3097f29a-b952-4238-ad46-847872ff67c0")
 	)
 	(wire
 		(pts
@@ -1551,13 +1593,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 125.73 35.56)
+			(xy 125.73 27.94) (xy 125.73 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44a8d066-0529-432d-ab73-a097192048e9")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b73191-097f-4859-82c0-6088b96daef2")
 	)
 	(wire
 		(pts
@@ -1571,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 44.45) (xy 86.36 44.45)
+			(xy 77.47 45.72) (xy 86.36 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1588,6 +1640,16 @@
 			(type default)
 		)
 		(uuid "4e50c314-205f-4424-bc94-6fd1a51084b7")
+	)
+	(wire
+		(pts
+			(xy 173.99 22.86) (xy 173.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b55537-eb36-4775-aafd-ef06be93e24a")
 	)
 	(wire
 		(pts
@@ -1621,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 111.76 44.45)
+			(xy 111.76 36.83) (xy 111.76 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1693,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 86.36 44.45)
+			(xy 160.02 27.94) (xy 160.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5b8fc1-9a47-468a-9887-bf937e9ffe0c")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 86.36 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 36.83) (xy 139.7 44.45)
+			(xy 139.7 36.83) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1701,13 +1773,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 44.45) (xy 139.7 44.45)
+			(xy 125.73 45.72) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d8809b7-20ce-46f2-896a-c64e41151f87")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 173.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d262a7-7101-4225-baea-ae3c65f41d7b")
 	)
 	(wire
 		(pts
@@ -1731,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 45.72) (xy 173.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c6213a-365f-4302-acfc-d17a898d28da")
+	)
+	(wire
+		(pts
 			(xy 219.71 41.91) (xy 223.52 41.91)
 		)
 		(stroke
@@ -1741,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 77.47 44.45)
+			(xy 68.58 45.72) (xy 77.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 44.45) (xy 99.06 43.18)
+			(xy 99.06 45.72) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 99.06 35.56)
+			(xy 99.06 27.94) (xy 99.06 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1811,13 +1903,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 44.45) (xy 99.06 44.45)
+			(xy 86.36 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd38a3cc-0831-49f5-9865-e3111fa06476")
+	)
+	(wire
+		(pts
+			(xy 173.99 27.94) (xy 173.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38ba9c7-1a8e-4ffd-a253-24d33951e882")
 	)
 	(wire
 		(pts
@@ -1851,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 44.45) (xy 125.73 44.45)
+			(xy 111.76 45.72) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 44.45) (xy 125.73 43.18)
+			(xy 125.73 45.72) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 44.45) (xy 111.76 44.45)
+			(xy 99.06 45.72) (xy 111.76 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1918,6 +2020,120 @@
 			(justify right bottom)
 		)
 		(uuid "a861c34f-db9d-4a56-a8bf-a115a5773eb2")
+	)
+	(label "VCC"
+		(at 173.99 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb275928-2e65-4965-9073-0282c08ffe9f")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "186cf727-5fe9-4871-8c0a-8e2b0792655e")
+		(property "Reference" "C7"
+			(at 177.8 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 177.8 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 174.9552 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C104K5RACTU"
+			(at 173.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 173.99 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "223622f6-611b-4025-99f5-7631cc5db9f9")
+		)
+		(pin "2"
+			(uuid "a0d0fb3b-22f9-46c4-b819-0b844de4354e")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
@@ -2102,8 +2318,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 99.06 39.37 0)
+		(lib_id "power:GND")
+		(at 160.02 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2112,31 +2328,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "388e628d-070a-4efb-9ec4-3ce78c1dc320")
-		(property "Reference" "C2"
-			(at 102.87 37.2109 0)
+		(uuid "352b863b-2864-4d1c-ac97-5db2c94cf926")
+		(property "Reference" "#PWR04"
+			(at 160.02 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 102.87 39.7509 0)
+		(property "Value" "GND"
+			(at 160.02 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
-			(at 100.0252 43.18 0)
+		(property "Footprint" ""
+			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2362,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 39.37 0)
+			(at 160.02 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f436d1c-4fe0-461a-93e8-8b725b7988ff")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 99.06 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388e628d-070a-4efb-9ec4-3ce78c1dc320")
+		(property "Reference" "C2"
+			(at 102.87 38.4809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 102.87 41.0209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
+			(at 100.0252 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2452,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 99.06 39.37 0)
+			(at 99.06 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2169,7 +2463,7 @@
 			)
 		)
 		(property "MPN" "EEE-FK1H470P"
-			(at 99.06 39.37 0)
+			(at 99.06 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2474,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 99.06 39.37 0)
+			(at 99.06 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,6 +2846,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 160.02 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ebd83cf-e42a-42c4-870e-38681481a5f4")
+		(property "Reference" "C6"
+			(at 163.83 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 163.83 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 160.9852 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C104K5RACTU"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d16d71e-7ed8-4d07-895b-4e9275a5488f")
+		)
+		(pin "2"
+			(uuid "f129dcff-6f36-48bf-b693-11f8d569088d")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 41.91 270)
 		(unit 1)
@@ -2632,7 +3030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 48.26 0)
+		(at 77.47 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2643,7 +3041,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1c7341e-2164-4319-a091-cbfe80eada23")
 		(property "Reference" "#PWR01"
-			(at 77.47 54.61 0)
+			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +3052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 53.34 0)
+			(at 77.47 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +3062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 48.26 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 48.26 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +3084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 48.26 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 39.37 0)
+		(at 125.73 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2825,7 +3223,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf082e28-5046-4357-9027-cbb9958e95ca")
 		(property "Reference" "C4"
-			(at 129.54 38.0999 0)
+			(at 129.54 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2836,7 +3234,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 129.54 40.6399 0)
+			(at 129.54 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2847,7 +3245,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 126.6952 43.18 0)
+			(at 126.6952 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,7 +3256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 39.37 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +3267,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 39.37 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +3278,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 125.73 39.37 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +3289,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 125.73 39.37 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
