@@ -849,6 +849,373 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "componentes_proyecto:DMP4015SSSQ-13"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1371,129 +1738,291 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 14.224 158.75)
+		(end 175.006 196.088)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4b6a3323-d9ac-490c-9337-3d459b56f75e")
+	)
+	(rectangle
+		(start 16.51 20.066)
+		(end 219.71 63.246)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a3011449-e7ae-433a-a210-c24a0769e042")
+	)
+	(text "Configuración del control automático de corriente (AGC)"
+		(exclude_from_sim no)
+		(at 44.196 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21c630be-7cea-4e87-ad23-3ec6f8b63fd9")
+	)
+	(text "Cerrados por defecto: JP1, JP2, JP3, JP5, JP10 y JP14.\nLos demás jumpers quedan abiertos.\nCortar el puente existente antes de seleccionar otra configuración."
+		(exclude_from_sim no)
+		(at 50.8 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "481d6570-7747-46f2-8d2d-0c006e22c2e8")
+	)
+	(text "Protección de alimentación"
+		(exclude_from_sim no)
+		(at 27.432 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ede35ec-b1df-4a10-a4a2-eb25a0851882")
+	)
 	(junction
-		(at 58.42 35.56)
+		(at 162.56 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "080edf11-3cd5-4d0f-aaa2-d881726a49ac")
+	)
+	(junction
+		(at 113.03 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15055001-96a4-42d3-9db8-d56d8034f57a")
+	)
+	(junction
+		(at 49.53 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1571e2be-7482-428a-becd-245c25497109")
 	)
 	(junction
-		(at 58.42 33.02)
+		(at 95.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15eeb841-6137-41cf-9e06-b4e1ec174cf9")
+	)
+	(junction
+		(at 49.53 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25eaa585-f777-47b9-8fb3-e82548c42d7f")
 	)
 	(junction
-		(at 99.06 27.94)
+		(at 90.17 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28e21e69-9934-47a9-a7e1-3946631dd16d")
 	)
 	(junction
-		(at 26.67 35.56)
+		(at 113.03 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0822a2-a93c-429d-ac03-6835bad952dc")
+	)
+	(junction
+		(at 17.78 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c6a6d8a-a88b-4c4c-a07b-92e1992ad7be")
 	)
 	(junction
-		(at 223.52 41.91)
+		(at 247.65 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc56a0a-fa29-4fe6-a969-0b83a548f69a")
 	)
 	(junction
-		(at 68.58 27.94)
+		(at 59.69 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f8b02d1-137b-44f4-9747-3ac26ddd308e")
 	)
 	(junction
-		(at 99.06 45.72)
+		(at 209.55 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b27e0f7-c522-40f7-982c-dde8fd4f34a0")
+	)
+	(junction
+		(at 144.78 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b72ce1b-b267-4632-8209-4cd292ce7784")
+	)
+	(junction
+		(at 90.17 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5978b29f-81c8-405c-9940-bc1c1db62f1a")
 	)
 	(junction
-		(at 68.58 36.83)
+		(at 59.69 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5deb0d70-27ec-4bf9-9ae2-5feb63c58002")
 	)
 	(junction
-		(at 111.76 27.94)
+		(at 134.62 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67c552b5-bc23-4144-b22e-40767dc58fa5")
+	)
+	(junction
+		(at 102.87 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "699738f2-e323-4ef6-89dc-5950ffdd84a4")
 	)
 	(junction
-		(at 86.36 27.94)
+		(at 77.47 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6af3904f-0090-499c-93ba-db006411db79")
 	)
 	(junction
-		(at 26.67 33.02)
+		(at 17.78 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b423eb9-50d3-4a15-b588-a23ea6ac6ef0")
 	)
 	(junction
-		(at 77.47 27.94)
+		(at 85.09 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f4ddac-5284-4504-94aa-cc91c1116461")
+	)
+	(junction
+		(at 68.58 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79271cde-8bd1-441a-96fe-d07cca42d915")
 	)
 	(junction
-		(at 86.36 45.72)
+		(at 85.09 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ce50cb-f5b5-4ab6-be09-5bc291266524")
+	)
+	(junction
+		(at 77.47 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e23f03f-4994-4f66-8468-15bf30bf095d")
 	)
 	(junction
-		(at 77.47 45.72)
+		(at 181.61 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f235ff-ca67-4349-a516-de5034a249c4")
+	)
+	(junction
+		(at 162.56 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad005a42-b7d9-4f99-b107-beb17c66e8e5")
+	)
+	(junction
+		(at 68.58 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5cac7c7-b730-4012-ba5d-6af262229855")
 	)
 	(junction
-		(at 160.02 45.72)
+		(at 148.59 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd686ca4-e260-456f-aa1b-48e28ef5ad46")
 	)
 	(junction
-		(at 125.73 27.94)
+		(at 209.55 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06f2195-5a6b-46e0-b92c-b5872ee09a24")
+	)
+	(junction
+		(at 144.78 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c848b1c9-5cf5-43fd-9fcd-a6c1fd126b64")
+	)
+	(junction
+		(at 181.61 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc7398f4-6581-4694-a436-15a9a2afaf7b")
+	)
+	(junction
+		(at 134.62 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd0d41ff-f1c9-43f1-b675-25994a35b778")
+	)
+	(junction
+		(at 116.84 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce0dec2d-68a8-4032-bfd9-c5049ab0be89")
 	)
 	(junction
-		(at 26.67 38.1)
+		(at 95.25 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d02256bc-4949-4424-acb0-6feba96e2664")
+	)
+	(junction
+		(at 17.78 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d332de02-1d6b-4a04-9f28-9aaefff85830")
 	)
 	(junction
-		(at 111.76 45.72)
+		(at 191.77 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd485cc6-cf71-4bf6-973b-a0635a688bc9")
+	)
+	(junction
+		(at 191.77 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12900f9-7d3d-4748-9173-a4aa69f31b5f")
+	)
+	(junction
+		(at 102.87 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9bcab03-054e-44cd-911a-07231fcb8a43")
 	)
 	(junction
-		(at 173.99 27.94)
+		(at 162.56 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc1187c-2055-4208-8b13-aea3164468da")
 	)
 	(junction
-		(at 125.73 45.72)
+		(at 116.84 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbf10617-cbbc-4d88-9ffb-944b4add7f1b")
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 125.73 27.94)
+			(xy 102.87 167.64) (xy 116.84 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 22.86) (xy 77.47 27.94)
+			(xy 68.58 162.56) (xy 68.58 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +2042,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 33.02) (xy 26.67 29.21)
+			(xy 134.62 39.37) (xy 149.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f2752a-a5e0-48ed-84fb-41a63618345c")
+	)
+	(wire
+		(pts
+			(xy 17.78 172.72) (xy 17.78 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +2062,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 45.72) (xy 68.58 44.45)
+			(xy 157.48 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a526cf8-d499-408a-93d4-0a8ec5e9e374")
+	)
+	(wire
+		(pts
+			(xy 59.69 185.42) (xy 59.69 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +2082,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 27.94) (xy 139.7 29.21)
+			(xy 181.61 49.53) (xy 209.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b854190-3fb0-4033-95cf-5ce1898c828e")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ad474a-136a-4d81-8651-df96f18162f6")
+	)
+	(wire
+		(pts
+			(xy 130.81 167.64) (xy 130.81 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +2112,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 27.94) (xy 77.47 27.94)
+			(xy 209.55 49.53) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bd12f3-3603-4470-90b8-8c5e31abc0d5")
+	)
+	(wire
+		(pts
+			(xy 59.69 167.64) (xy 68.58 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +2132,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 77.47 49.53)
+			(xy 81.28 39.37) (xy 85.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bec079-f3b9-4d2e-9a19-2c93827ce33e")
+	)
+	(wire
+		(pts
+			(xy 134.62 24.13) (xy 134.62 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240516b9-ea66-4cac-9833-6bca890cc1d7")
+	)
+	(wire
+		(pts
+			(xy 68.58 185.42) (xy 68.58 189.23)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 27.94) (xy 173.99 27.94)
+			(xy 148.59 167.64) (xy 162.56 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.83) (xy 160.02 45.72)
+			(xy 148.59 176.53) (xy 148.59 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 35.56) (xy 58.42 38.1)
+			(xy 49.53 175.26) (xy 49.53 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +2192,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 125.73 36.83)
+			(xy 181.61 39.37) (xy 196.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a29627f-d8c0-4516-aa3b-935d1baa164f")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fabc5f9-e454-4913-833f-234e91da4344")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 116.84 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 160.02 49.53)
+			(xy 148.59 185.42) (xy 148.59 189.23)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 27.94) (xy 99.06 27.94)
+			(xy 77.47 167.64) (xy 90.17 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +2242,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 86.36 45.72)
+			(xy 26.67 24.13) (xy 26.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c03d5ab-1c93-4645-8593-ba3f1532707f")
+	)
+	(wire
+		(pts
+			(xy 68.58 185.42) (xy 77.47 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +2262,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 139.7 27.94)
+			(xy 26.67 46.99) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d79b124-df06-4d19-bdfc-0920287f75a9")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 130.81 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +2282,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 22.86) (xy 173.99 27.94)
+			(xy 26.67 34.29) (xy 26.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec4ea58-6296-4fa0-b70f-c079cdc281dd")
+	)
+	(wire
+		(pts
+			(xy 162.56 162.56) (xy 162.56 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 63.5 40.64)
+			(xy 54.61 176.53) (xy 54.61 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 33.02) (xy 58.42 35.56)
+			(xy 49.53 172.72) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 41.91) (xy 223.52 44.45)
+			(xy 247.65 144.78) (xy 247.65 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 111.76 45.72)
+			(xy 102.87 176.53) (xy 102.87 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +2342,37 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 27.94) (xy 160.02 29.21)
+			(xy 181.61 24.13) (xy 181.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a18f02a-2492-4083-b946-047a98b9e4e9")
+	)
+	(wire
+		(pts
+			(xy 45.72 24.13) (xy 45.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b03102b-1c46-496e-b736-edb980558de0")
+	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 45.72 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b29dc5d-e884-47a6-afd6-b62ab4c26d3f")
+	)
+	(wire
+		(pts
+			(xy 148.59 167.64) (xy 148.59 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 86.36 45.72)
+			(xy 77.47 176.53) (xy 77.47 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +2392,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 111.76 27.94)
+			(xy 130.81 39.37) (xy 134.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7144db19-848e-4cc6-9b06-7662610aaa37")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7a1fc8-06c6-4076-8434-3e482e92c284")
+	)
+	(wire
+		(pts
+			(xy 90.17 167.64) (xy 102.87 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 36.83) (xy 139.7 45.72)
+			(xy 130.81 176.53) (xy 130.81 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +2432,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 26.67 35.56)
+			(xy 134.62 29.21) (xy 162.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860953c3-6ed3-44c3-8290-71b69867b4b9")
+	)
+	(wire
+		(pts
+			(xy 17.78 177.8) (xy 17.78 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 27.94) (xy 86.36 27.94)
+			(xy 68.58 167.64) (xy 77.47 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +2462,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 68.58 36.83)
+			(xy 162.56 49.53) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8523db-8f09-4066-9d02-3a43ac0e338f")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +2482,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 35.56) (xy 26.67 33.02)
+			(xy 177.8 39.37) (xy 181.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b7007-22a4-4300-97e4-36d23ae8764f")
+	)
+	(wire
+		(pts
+			(xy 17.78 175.26) (xy 17.78 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +2502,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 139.7 45.72)
+			(xy 107.95 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce54d3b-52c7-4b4b-b589-3dda15eaa1bf")
+	)
+	(wire
+		(pts
+			(xy 116.84 185.42) (xy 130.81 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +2522,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 173.99 45.72)
+			(xy 144.78 49.53) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e01be6b-91b4-43e8-9144-992a038f0c1f")
+	)
+	(wire
+		(pts
+			(xy 144.78 39.37) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1c80e0-b66a-4d22-8877-770d7f58a32a")
+	)
+	(wire
+		(pts
+			(xy 148.59 185.42) (xy 162.56 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +2552,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 27.94) (xy 86.36 29.21)
+			(xy 85.09 39.37) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a287e743-7c78-4426-9e54-b62dca9df756")
+	)
+	(wire
+		(pts
+			(xy 77.47 167.64) (xy 77.47 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +2572,27 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 39.37) (xy 226.06 39.37)
+			(xy 22.86 49.53) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95836b9-2b29-44f5-bf01-b438707c0c3f")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 191.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac9ee88-41ca-43f9-987f-c83130953118")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 250.19 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +2602,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 173.99 44.45)
+			(xy 85.09 29.21) (xy 113.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42fe74d-3398-462a-8d5a-f3f0dbb773b3")
+	)
+	(wire
+		(pts
+			(xy 162.56 185.42) (xy 162.56 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1823,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 41.91) (xy 223.52 41.91)
+			(xy 243.84 144.78) (xy 247.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +2632,27 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 45.72) (xy 77.47 45.72)
+			(xy 204.47 39.37) (xy 209.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb72e343-17b0-45c5-8a34-086f8b18e416")
+	)
+	(wire
+		(pts
+			(xy 63.5 24.13) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8ec5af-8665-4f18-89d5-3c56825c5928")
+	)
+	(wire
+		(pts
+			(xy 59.69 185.42) (xy 68.58 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +2662,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 40.64) (xy 26.67 38.1)
+			(xy 95.25 39.37) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dcf908-f7cd-431a-b649-ba8f32861681")
+	)
+	(wire
+		(pts
+			(xy 17.78 180.34) (xy 17.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +2682,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 35.56) (xy 68.58 36.83)
+			(xy 41.91 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f34dbd-3e2f-4668-9c85-bb46d9957fdb")
+	)
+	(wire
+		(pts
+			(xy 59.69 175.26) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 99.06 44.45)
+			(xy 90.17 185.42) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 27.94) (xy 68.58 27.94)
+			(xy 49.53 167.64) (xy 59.69 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 111.76 29.21)
+			(xy 102.87 167.64) (xy 102.87 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 99.06 36.83)
+			(xy 90.17 167.64) (xy 90.17 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 99.06 45.72)
+			(xy 77.47 185.42) (xy 90.17 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +2752,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 27.94) (xy 173.99 36.83)
+			(xy 85.09 24.13) (xy 85.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d042edd6-6d47-464c-be82-ce71848335c6")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 63.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d5f15e-181a-4920-a5bf-3fc751eeb44d")
+	)
+	(wire
+		(pts
+			(xy 162.56 167.64) (xy 162.56 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +2782,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 33.02) (xy 58.42 27.94)
+			(xy 181.61 29.21) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a89ce1-39b4-4fa9-810a-12463f84cb2f")
+	)
+	(wire
+		(pts
+			(xy 63.5 46.99) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f07871-5206-47c6-90d0-d7af15c80bc8")
+	)
+	(wire
+		(pts
+			(xy 49.53 172.72) (xy 49.53 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 63.5 40.64)
+			(xy 49.53 180.34) (xy 54.61 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +2822,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 41.91) (xy 226.06 41.91)
+			(xy 59.69 49.53) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31b5699-f3ce-454d-b06a-5c105456cfd0")
+	)
+	(wire
+		(pts
+			(xy 247.65 144.78) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 45.72) (xy 125.73 45.72)
+			(xy 102.87 185.42) (xy 116.84 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1963,17 +2852,27 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 29.21) (xy 26.67 29.21)
+			(xy 95.25 49.53) (xy 95.25 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e62612ca-1a8d-45f4-b073-28e7bed78283")
+		(uuid "e5b247ef-5925-4097-b6da-652c17616079")
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 125.73 44.45)
+			(xy 134.62 49.53) (xy 162.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9250b8c-9424-459f-8cdf-011e3f1f827b")
+	)
+	(wire
+		(pts
+			(xy 116.84 185.42) (xy 116.84 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +2882,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 111.76 45.72)
+			(xy 191.77 39.37) (xy 191.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1da3e04-72b2-494b-b234-e2f4075c6d7c")
+	)
+	(wire
+		(pts
+			(xy 90.17 185.42) (xy 102.87 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1991,8 +2900,38 @@
 		)
 		(uuid "f51c16c0-2a54-4a9b-b5a8-8de9ecbad2b9")
 	)
+	(label "CLIM1"
+		(at 81.28 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "030e5e3e-5ec8-42a2-9696-67346b6a7eba")
+	)
+	(label "VCC"
+		(at 134.62 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11179db9-23f9-4f11-a084-f09843659924")
+	)
+	(label "BOOST"
+		(at 177.8 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "116cad22-4cca-4be8-9023-7ac622a273bc")
+	)
 	(label "VM"
-		(at 77.47 22.86 0)
+		(at 68.58 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,8 +2940,18 @@
 		)
 		(uuid "1c763f45-e4a1-410c-8e47-d05b87f125e7")
 	)
+	(label "AGC1"
+		(at 41.91 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b7ff24b-f8ab-4667-a955-ffdeb8aee42e")
+	)
 	(label "VIN"
-		(at 20.32 29.21 180)
+		(at 17.78 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,8 +2960,58 @@
 		)
 		(uuid "32130ff8-44b3-49d2-a575-47c3ea92ad9f")
 	)
+	(label "VCC"
+		(at 85.09 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b22ee12-3305-4d19-bccd-33238f9dd181")
+	)
+	(label "FLIM"
+		(at 130.81 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82d35c80-c75f-4544-a6ef-df9f986cdb1e")
+	)
+	(label "AGC0"
+		(at 22.86 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8deb0f8c-db6e-4581-813d-8411e379bbe5")
+	)
+	(label "CLIM0"
+		(at 59.69 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92ae370a-fd19-4fc4-a19a-9506c6ab53eb")
+	)
+	(label "VCC"
+		(at 181.61 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5e2f429-70a1-4d3f-b22d-8a2b692a45d8")
+	)
 	(label "VIN"
-		(at 218.44 39.37 180)
+		(at 242.57 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2022,7 +3021,7 @@
 		(uuid "a861c34f-db9d-4a56-a8bf-a115a5773eb2")
 	)
 	(label "VCC"
-		(at 173.99 22.86 0)
+		(at 162.56 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,20 +3030,50 @@
 		)
 		(uuid "cb275928-2e65-4965-9073-0282c08ffe9f")
 	)
+	(label "VCC"
+		(at 45.72 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd7e3ab1-e628-4128-9626-58eb1fb9e322")
+	)
+	(label "VCC"
+		(at 63.5 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f620b5b5-8004-487c-9596-1f1f5436d78d")
+	)
+	(label "VCC"
+		(at 26.67 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff1450d4-e26a-4439-a496-0da5884dd9c4")
+	)
 	(symbol
-		(lib_id "Device:C")
-		(at 173.99 40.64 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 181.61 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "186cf727-5fe9-4871-8c0a-8e2b0792655e")
-		(property "Reference" "C7"
-			(at 177.8 39.3699 0)
+		(uuid "04ffefd7-5758-455f-9187-e4d6440f190a")
+		(property "Reference" "JP13"
+			(at 184.15 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2054,8 +3083,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 177.8 41.9099 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 184.15 45.7199 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2065,8 +3095,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 174.9552 44.45 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 181.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +3107,254 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 40.64 0)
+			(at 173.99 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 176.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7267d89c-4de8-433a-ac29-b3a2aad82a43")
+		)
+		(pin "2"
+			(uuid "baf0867e-b525-4453-aa58-05e615f885c5")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 209.55 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1070de82-ef00-40f4-a609-0b41dc0fb3dd")
+		(property "Reference" "JP14"
+			(at 212.09 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 213.36 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 209.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 204.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "503bf8cc-02f3-4389-8ed4-f7844eafafc3")
+		)
+		(pin "2"
+			(uuid "7bdbb199-ef01-46e3-bfa4-b27880b05f32")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 85.09 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18234845-be73-42e7-a1a9-3a203f6018e7")
+		(property "Reference" "JP6"
+			(at 87.63 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 87.63 45.7199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 80.01 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30fa3c44-6841-4cd5-b5e8-7d551fc42aa1")
+		)
+		(pin "2"
+			(uuid "cb374b33-38e7-4b13-9ede-2a5c4d656f8a")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "186cf727-5fe9-4871-8c0a-8e2b0792655e")
+		(property "Reference" "C7"
+			(at 166.37 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 166.37 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 163.5252 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2088,7 +3365,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 40.64 0)
+			(at 162.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2099,7 +3376,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 173.99 40.64 0)
+			(at 162.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +3387,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 173.99 40.64 0)
+			(at 162.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,8 +3413,657 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 144.78 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "19a7481d-ff92-416e-a6f1-68f40bd7cf28")
+		(property "Reference" "R7"
+			(at 147.32 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 147.32 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 143.002 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9e39890-910c-4337-84e8-4ce4a5370a8c")
+		)
+		(pin "2"
+			(uuid "e087c404-eab4-4cd6-89e7-1fbf20cea952")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "249a85e8-09e9-4b1c-be16-947e7d269b78")
+		(property "Reference" "R10"
+			(at 200.66 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 200.66 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 200.66 37.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca20a484-7d87-4183-be25-029a30f2a810")
+		)
+		(pin "2"
+			(uuid "5bf813f5-eb3a-454a-9c9a-7abbf5103daf")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 134.62 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265a774a-0c35-4fd7-b0fc-856a8bd07743")
+		(property "Reference" "JP8"
+			(at 137.16 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 137.16 35.5599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3913842f-b9fe-43fa-ac0d-7e0a6fc56ed4")
+		)
+		(pin "2"
+			(uuid "c177a346-980f-4249-8225-bdfa30440db1")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "273cdeb2-fd17-482a-bee9-7969bc9f676e")
+		(property "Reference" "#PWR05"
+			(at 113.03 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac0bf08a-a99b-44b9-9c2b-8cb0fa9f8699")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 209.55 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "283574b3-dbcb-457e-be05-2f5d8655dc14")
+		(property "Reference" "JP15"
+			(at 212.09 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 212.09 45.7199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 209.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b5b0fc9-e1b3-4376-be7a-204a54481638")
+		)
+		(pin "2"
+			(uuid "2b1cec57-79d3-48d2-b491-529327d50061")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 134.62 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297b3ea5-a034-4b6c-88f0-b0d2abd7afde")
+		(property "Reference" "JP9"
+			(at 137.16 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 137.16 45.7199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 134.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 129.54 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a9ac05d-6dc4-4860-9729-5cce47fd1490")
+		)
+		(pin "2"
+			(uuid "d0839692-83c2-4340-88a3-e69cfdc3ed6a")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2ade9f0f-d8d6-4d2e-9b63-5d9d490d6aa4")
+		(property "Reference" "R9"
+			(at 194.31 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 194.31 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 189.992 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "def5aa3c-f98d-4738-a3e4-0939a1d8bad5")
+		)
+		(pin "2"
+			(uuid "bae7afa7-5a0f-4ba2-a495-67ca2d21ef1c")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e160565-f3a7-4971-b728-7961659148f6")
+		(property "Reference" "#PWR06"
+			(at 162.56 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc4fb3eb-eef4-4a0a-bd64-492ecd793758")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
-		(at 68.58 31.75 270)
+		(at 59.69 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2148,7 +4074,7 @@
 		(fields_autoplaced yes)
 		(uuid "3090b327-4c50-4e38-900e-bbc3e2ce5451")
 		(property "Reference" "D1"
-			(at 71.12 30.4799 90)
+			(at 62.23 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2159,7 +4085,7 @@
 			)
 		)
 		(property "Value" "BZT52C16"
-			(at 71.12 33.0199 90)
+			(at 62.23 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2170,7 +4096,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 68.58 31.75 0)
+			(at 59.69 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://BZT52C161S00WK_zener.pdf"
-			(at 68.58 31.75 0)
+			(at 59.69 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +4118,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 68.58 31.75 0)
+			(at 59.69 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "componentes_proyecto:DMP4015SSSQ-13")
-		(at 58.42 33.02 0)
+		(at 49.53 172.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2230,7 +4156,7 @@
 		(dnp no)
 		(uuid "338cb4f5-a506-485a-9ea6-02de07ac93cc")
 		(property "Reference" "Q1"
-			(at 42.545 22.86 0)
+			(at 33.655 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2240,7 +4166,7 @@
 			)
 		)
 		(property "Value" "DMP4015SSSQ-13"
-			(at 42.545 25.4 0)
+			(at 33.655 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2250,7 +4176,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:SO8_DIO"
-			(at 58.42 33.02 0)
+			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +4188,7 @@
 			)
 		)
 		(property "Datasheet" "DMP4015SSSQ-13"
-			(at 58.42 33.02 0)
+			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +4200,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 33.02 0)
+			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +4245,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 49.53 0)
+		(at 148.59 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2330,7 +4256,7 @@
 		(fields_autoplaced yes)
 		(uuid "352b863b-2864-4d1c-ac97-5db2c94cf926")
 		(property "Reference" "#PWR04"
-			(at 160.02 55.88 0)
+			(at 148.59 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +4267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 54.61 0)
+			(at 148.59 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2351,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 49.53 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2362,7 +4288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 49.53 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2373,7 +4299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 49.53 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,8 +4322,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 99.06 40.64 0)
+		(lib_id "Device:R")
+		(at 63.5 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2406,9 +4332,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "388e628d-070a-4efb-9ec4-3ce78c1dc320")
-		(property "Reference" "C2"
-			(at 102.87 38.4809 0)
+		(uuid "367a3229-9ba2-4a9b-a210-0af69fe8a83a")
+		(property "Reference" "R4"
+			(at 66.04 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2418,8 +4344,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 102.87 41.0209 0)
+		(property "Value" "10k"
+			(at 66.04 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2429,8 +4355,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
-			(at 100.0252 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 61.722 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +4367,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 40.64 0)
+			(at 63.5 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f167b44b-2173-4066-96fa-ff02381b9962")
+		)
+		(pin "2"
+			(uuid "2a0ae4b6-c6ba-4378-ab7d-45118997c468")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 90.17 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388e628d-070a-4efb-9ec4-3ce78c1dc320")
+		(property "Reference" "C2"
+			(at 93.98 178.1809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 93.98 180.7209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
+			(at 91.1352 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +4460,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 99.06 40.64 0)
+			(at 90.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,7 +4471,7 @@
 			)
 		)
 		(property "MPN" "EEE-FK1H470P"
-			(at 99.06 40.64 0)
+			(at 90.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2474,7 +4482,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 99.06 40.64 0)
+			(at 90.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +4509,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 231.14 39.37 0)
+		(at 255.27 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2512,7 +4520,7 @@
 		(fields_autoplaced yes)
 		(uuid "42b21244-e08d-46c2-9b50-315005eacbe3")
 		(property "Reference" "J3"
-			(at 233.68 39.3699 0)
+			(at 257.81 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2523,7 +4531,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 233.68 41.9099 0)
+			(at 257.81 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2534,7 +4542,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:OST_OSTTE020104"
-			(at 231.14 39.37 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +4553,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://OSTTEXX0104.pdf"
-			(at 231.14 39.37 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,7 +4564,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 39.37 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,19 +4590,30 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 223.52 44.45 180)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 85.09 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46e1f767-8c27-4643-a193-99c24a10df53")
-		(property "Reference" "#FLG01"
-			(at 223.52 46.355 0)
+		(uuid "450b1ed2-92a6-42a4-8ed0-30570679a133")
+		(property "Reference" "JP4"
+			(at 87.63 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 87.63 35.5599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2602,20 +4621,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 223.52 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 44.45 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 85.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +4636,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 44.45 0)
+			(at 77.47 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 80.01 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d106ea28-1f41-420b-a85c-059b87ff4078")
+		)
+		(pin "2"
+			(uuid "a1cc58a0-27a1-4eec-9750-e3ad23367988")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 247.65 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e1f767-8c27-4643-a193-99c24a10df53")
+		(property "Reference" "#FLG01"
+			(at 247.65 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,7 +4728,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 223.52 44.45 0)
+			(at 247.65 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +4752,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 86.36 33.02 0)
+		(at 77.47 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2672,7 +4763,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c85bc1c-5702-4fd5-8adf-3b85aa846056")
 		(property "Reference" "C1"
-			(at 90.17 30.8609 0)
+			(at 81.28 170.5609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2683,7 +4774,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 90.17 33.4009 0)
+			(at 81.28 173.1009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2694,7 +4785,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
-			(at 87.3252 36.83 0)
+			(at 78.4352 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +4796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 33.02 0)
+			(at 77.47 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +4807,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 86.36 33.02 0)
+			(at 77.47 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +4818,7 @@
 			)
 		)
 		(property "MPN" "EEE-FK1H470P"
-			(at 86.36 33.02 0)
+			(at 77.47 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +4829,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 86.36 33.02 0)
+			(at 77.47 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +4856,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 40.64 0)
+		(at 45.72 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2774,9 +4865,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5cb64361-caff-4679-a099-a8a52ac17ca2")
-		(property "Reference" "R1"
-			(at 71.12 39.3699 0)
+		(uuid "4ddfc500-8f49-4928-98d0-f2ad4c744765")
+		(property "Reference" "R3"
+			(at 48.26 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,8 +4877,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 71.12 41.9099 0)
+		(property "Value" "10k"
+			(at 48.26 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2798,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 66.802 40.64 90)
+			(at 43.942 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +4900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 40.64 0)
+			(at 45.72 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +4911,89 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 40.64 0)
+			(at 45.72 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f05b849d-cf2d-4c75-8df2-840ef2a526c0")
+		)
+		(pin "2"
+			(uuid "2a2671c4-2f5e-4494-b106-bee6666314f8")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb64361-caff-4679-a099-a8a52ac17ca2")
+		(property "Reference" "R1"
+			(at 62.23 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.912 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,19 +5019,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 33.02 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 113.03 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ebd83cf-e42a-42c4-870e-38681481a5f4")
-		(property "Reference" "C6"
-			(at 163.83 31.7499 0)
+		(uuid "5db04fd4-8f81-4ed9-9662-00728ce71f7d")
+		(property "Reference" "JP7"
+			(at 115.57 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2868,8 +5041,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
-			(at 163.83 34.2899 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 115.57 45.7199 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2879,8 +5053,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 160.9852 36.83 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +5065,412 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 33.02 0)
+			(at 105.41 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23225f0c-3368-4ecb-97fb-09e13d0cb013")
+		)
+		(pin "2"
+			(uuid "84fa4a6f-df04-438a-aef5-fff059d0dadc")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f896056-4795-49ae-a1aa-7058cc882ab7")
+		(property "Reference" "R8"
+			(at 153.67 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 153.67 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 153.67 37.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd3d5c98-73ea-4537-9985-5f43b96c88af")
+		)
+		(pin "2"
+			(uuid "82013144-497b-4591-a390-7dd19c9fe678")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fec51a2-82f8-46c2-af1b-184f5ad91328")
+		(property "Reference" "#PWR07"
+			(at 209.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a32980f1-de83-43b7-87d9-30339d2bc260")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 45.72 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9e6333-51ac-4592-ad2c-e3889fee329c")
+		(property "Reference" "JP2"
+			(at 48.26 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 48.26 43.1799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 45.72 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 40.64 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b146ba9-3a16-4d17-8ca7-6c8b54161859")
+		)
+		(pin "2"
+			(uuid "1e95d706-54ef-45c2-81a6-ba4be27de787")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 162.56 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9290697c-5974-4405-9369-96661aaae21e")
+		(property "Reference" "JP10"
+			(at 165.1 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 166.37 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 162.56 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 157.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a42ac9e-f5e8-490d-800a-6ec3e356ffb9")
+		)
+		(pin "2"
+			(uuid "370e32a1-8932-4219-a4a9-5624f686563d")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ebd83cf-e42a-42c4-870e-38681481a5f4")
+		(property "Reference" "C6"
+			(at 152.4 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 152.4 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 149.5552 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2902,7 +5481,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 33.02 0)
+			(at 148.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +5492,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 160.02 33.02 0)
+			(at 148.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2924,7 +5503,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 160.02 33.02 0)
+			(at 148.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,19 +5529,30 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 219.71 41.91 270)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 162.56 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf400942-f29d-4971-893b-26b434ddce16")
-		(property "Reference" "#PWR02"
-			(at 213.36 41.91 0)
+		(uuid "ac8fd531-c81f-4494-aca6-2bdfd11aff69")
+		(property "Reference" "JP11"
+			(at 165.1 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 165.1 45.7199 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,21 +5560,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 215.9 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 41.91 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 162.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +5575,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 41.91 0)
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "038d281e-3f2c-4d9b-91ba-523bf47f0e54")
+		)
+		(pin "2"
+			(uuid "0267a4cb-56c1-4c17-928a-5125b8c12643")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 144.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf400942-f29d-4971-893b-26b434ddce16")
+		(property "Reference" "#PWR02"
+			(at 237.49 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,7 +5668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 41.91 0)
+			(at 243.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,8 +5691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 49.53 0)
+		(lib_id "Device:R")
+		(at 26.67 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3039,30 +5701,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1c7341e-2164-4319-a091-cbfe80eada23")
-		(property "Reference" "#PWR01"
-			(at 77.47 55.88 0)
-			(hide yes)
+		(uuid "c0dfb2aa-64a7-4ec3-9dde-eb4ac8e4a119")
+		(property "Reference" "R2"
+			(at 29.21 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 77.47 54.61 0)
+		(property "Value" "10k"
+			(at 29.21 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 49.53 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 24.892 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +5736,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 49.53 0)
+			(at 26.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2685be7-8365-48eb-a175-1e5a3e06eb64")
+		)
+		(pin "2"
+			(uuid "3894d317-5d7f-438c-90d1-d8c5581098c6")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c7341e-2164-4319-a091-cbfe80eada23")
+		(property "Reference" "#PWR01"
+			(at 68.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +5828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 49.53 0)
+			(at 68.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +5852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 33.02 0)
+		(at 130.81 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3119,7 +5863,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca229dd6-e229-4985-844a-6bdbd6941b9e")
 		(property "Reference" "C5"
-			(at 143.51 31.7499 0)
+			(at 134.62 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3130,7 +5874,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 143.51 34.2899 0)
+			(at 134.62 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3141,7 +5885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 140.6652 36.83 0)
+			(at 131.7752 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +5896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 33.02 0)
+			(at 130.81 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +5907,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 33.02 0)
+			(at 130.81 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +5918,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 139.7 33.02 0)
+			(at 130.81 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +5929,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 139.7 33.02 0)
+			(at 130.81 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +5956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 40.64 0)
+		(at 116.84 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3223,7 +5967,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf082e28-5046-4357-9027-cbb9958e95ca")
 		(property "Reference" "C4"
-			(at 129.54 39.3699 0)
+			(at 120.65 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3234,7 +5978,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 129.54 41.9099 0)
+			(at 120.65 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3245,7 +5989,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 126.6952 44.45 0)
+			(at 117.8052 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +6000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 40.64 0)
+			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +6011,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 40.64 0)
+			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +6022,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 125.73 40.64 0)
+			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +6033,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 125.73 40.64 0)
+			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,19 +6059,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 33.02 0)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 113.03 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "efd261c1-9ba1-46de-9a81-ec488f779c3e")
-		(property "Reference" "C3"
-			(at 115.57 31.7499 0)
+		(uuid "d36292bb-88f1-4272-9491-d95e24253314")
+		(property "Reference" "JP5"
+			(at 115.57 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3337,19 +6081,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
-			(at 115.57 34.2899 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 116.84 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 112.7252 36.83 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 113.03 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +6104,420 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 33.02 0)
+			(at 106.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d77b4c0-4456-455d-9b44-d8643f44a4ae")
+		)
+		(pin "2"
+			(uuid "db51b6a9-6655-467a-b473-99f68b641ad3")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 63.5 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dadcd6d7-1cf5-4229-a358-911c0959ee2c")
+		(property "Reference" "JP3"
+			(at 66.04 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 66.04 43.1799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 63.5 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 58.42 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca52b582-d371-48ed-aa8c-a7abd1e42854")
+		)
+		(pin "2"
+			(uuid "0e88245b-3a4b-4530-8aec-f343debadf5b")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 181.61 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e115a322-c0c6-4f50-817f-34f8463e040a")
+		(property "Reference" "JP12"
+			(at 184.15 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 184.15 35.5599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 181.61 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 176.53 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed4b463f-93b4-4b68-930f-3cc587169ab8")
+		)
+		(pin "2"
+			(uuid "bc37a9ac-3e36-44bf-87c7-7a333a142e6b")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "eb6fafe1-cd47-4f29-a1fa-3d8bcc338949")
+		(property "Reference" "R6"
+			(at 97.79 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 97.79 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.472 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35f58e21-ec74-4ce2-b154-b89d3b4676a2")
+		)
+		(pin "2"
+			(uuid "338dbf09-633f-484b-b605-a3942c52d555")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 26.67 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee544a6-739d-43d8-b3c7-f76569c95964")
+		(property "Reference" "JP1"
+			(at 29.21 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 29.21 43.1799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 26.67 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 21.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5493526f-d037-42a1-aa83-dfeeca61b5e1")
+		)
+		(pin "2"
+			(uuid "3ad10e02-5440-44d9-a454-1396b26f87c4")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd261c1-9ba1-46de-9a81-ec488f779c3e")
+		(property "Reference" "C3"
+			(at 106.68 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 106.68 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 103.8352 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3371,7 +6528,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 33.02 0)
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +6539,7 @@
 			)
 		)
 		(property "MPN" "GRM32ER71H475KA88K"
-			(at 111.76 33.02 0)
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +6550,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 111.76 33.02 0)
+			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,6 +6570,86 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb5cecf-55ed-44b8-8aae-6e6261e26e9f")
+		(property "Reference" "R5"
+			(at 104.14 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.14 37.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb487eb-b7ae-4123-90f7-cc73e9d15665")
+		)
+		(pin "2"
+			(uuid "f5a1e47d-bad6-4f17-b2b4-6a30dfd2f2dc")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "R5")
 					(unit 1)
 				)
 			)
