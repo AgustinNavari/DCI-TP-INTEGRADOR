@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -17.78 0)
 				(length 7.62)
 				(name "GND"
@@ -862,7 +862,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -33.02 0)
 				(length 7.62)
 				(name "OUTA+"
@@ -880,7 +880,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -35.56 0)
 				(length 7.62)
 				(name "RSAGND"
@@ -898,7 +898,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -38.1 0)
 				(length 7.62)
 				(name "RSAGND"
@@ -934,7 +934,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -43.18 0)
 				(length 7.62)
 				(name "OUTA-"
@@ -970,7 +970,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -48.26 0)
 				(length 7.62)
 				(name "OUTB-"
@@ -988,7 +988,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -50.8 0)
 				(length 7.62)
 				(name "RSBGND"
@@ -1006,7 +1006,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -53.34 0)
 				(length 7.62)
 				(name "RSBGND"
@@ -1042,7 +1042,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -58.42 0)
 				(length 7.62)
 				(name "OUTB+"
@@ -1132,7 +1132,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 50.8 -50.8 180)
 				(length 7.62)
 				(name "GND"
@@ -1150,7 +1150,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 50.8 -48.26 180)
 				(length 7.62)
 				(name "GND"
@@ -1204,7 +1204,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 50.8 -40.64 180)
 				(length 7.62)
 				(name "VCC"
@@ -1222,7 +1222,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 50.8 -38.1 180)
 				(length 7.62)
 				(name "VCC"
@@ -1492,7 +1492,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 50.8 0 180)
 				(length 7.62)
 				(name "GND"

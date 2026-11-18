@@ -144,7 +144,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "DMP4015SSSQ-13_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "S"
@@ -162,7 +164,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "S"
@@ -180,7 +182,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "S"
@@ -198,7 +200,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "G"
@@ -216,7 +218,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 31.75 -7.62 180)
 				(length 7.62)
 				(name "D"
@@ -234,7 +236,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 31.75 -5.08 180)
 				(length 7.62)
 				(name "D"
@@ -252,7 +254,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 31.75 -2.54 180)
 				(length 7.62)
 				(name "D"
@@ -270,7 +272,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 31.75 0 180)
 				(length 7.62)
 				(name "D"
@@ -860,7 +862,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -33.02 0)
 				(length 7.62)
 				(name "OUTA+"
@@ -932,7 +934,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -43.18 0)
 				(length 7.62)
 				(name "OUTA-"
@@ -968,7 +970,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -48.26 0)
 				(length 7.62)
 				(name "OUTB-"
@@ -1040,7 +1042,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -58.42 0)
 				(length 7.62)
 				(name "OUTB+"
@@ -1202,7 +1204,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 50.8 -40.64 180)
 				(length 7.62)
 				(name "VCC"
@@ -1220,7 +1222,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 50.8 -38.1 180)
 				(length 7.62)
 				(name "VCC"
