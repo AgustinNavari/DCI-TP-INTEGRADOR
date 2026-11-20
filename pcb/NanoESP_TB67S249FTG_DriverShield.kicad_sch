@@ -5497,7 +5497,7 @@
 	)
 	(rectangle
 		(start 219.075 19.05)
-		(end 277.495 62.23)
+		(end 277.495 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -5556,8 +5556,8 @@
 		(uuid "c7d9c15d-537e-40d5-96b7-60240b0d064a")
 	)
 	(rectangle
-		(start 179.705 143.51)
-		(end 282.575 160.02)
+		(start 179.705 140.97)
+		(end 282.575 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -5579,7 +5579,7 @@
 	)
 	(text "Borneras\n"
 		(exclude_from_sim no)
-		(at 183.642 142.24 0)
+		(at 183.896 139.192 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5617,15 +5617,45 @@
 		)
 		(uuid "48a985a8-e3cd-466e-a972-0d3469420493")
 	)
-	(text "Borneras"
+	(text "A +/-"
 		(exclude_from_sim no)
-		(at 152.654 119.634 0)
+		(at 217.932 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4b5b7e62-ae8c-41ee-a834-e58ae0909413")
+		(uuid "4f07694b-1116-46cf-8a51-11d9eca73a0d")
+	)
+	(text "B +/-"
+		(exclude_from_sim no)
+		(at 239.014 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52ed2334-0ba4-45c7-8652-c0930efb80f2")
+	)
+	(text "Abrir el puente 1-2 antes de cerrar 2-3. \nNo unir los tres pads."
+		(exclude_from_sim no)
+		(at 248.666 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ea61e15-2262-49d6-b98c-41bdc1b97c2b")
+	)
+	(text "Alim. Arduino (21v max)"
+		(exclude_from_sim no)
+		(at 266.446 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5faf0116-2418-441d-a518-b85640a392fb")
 	)
 	(text "Protección de alimentación"
 		(exclude_from_sim no)
@@ -5646,6 +5676,16 @@
 			)
 		)
 		(uuid "b722035f-8e6a-46e5-a7ea-0aefc528c3e9")
+	)
+	(text "Alim. Driver (24v max)\n"
+		(exclude_from_sim no)
+		(at 193.548 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf093c13-975e-4a23-8718-1beebef88ce6")
 	)
 	(junction
 		(at 154.94 39.37)
@@ -5702,7 +5742,7 @@
 		(uuid "2c6a6d8a-a88b-4c4c-a07b-92e1992ad7be")
 	)
 	(junction
-		(at 195.58 151.13)
+		(at 194.31 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc56a0a-fa29-4fe6-a969-0b83a548f69a")
@@ -6065,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 156.21) (xy 257.81 157.48)
+			(xy 256.54 158.75) (xy 256.54 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6275,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 148.59) (xy 271.78 148.59)
+			(xy 256.54 151.13) (xy 270.51 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6445,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 151.13) (xy 271.78 151.13)
+			(xy 267.97 153.67) (xy 270.51 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6585,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 151.13) (xy 218.44 151.13)
+			(xy 213.36 153.67) (xy 217.17 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6645,7 +6685,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 151.13) (xy 238.76 151.13)
+			(xy 233.68 153.67) (xy 237.49 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6795,7 +6835,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 195.58 153.67)
+			(xy 194.31 153.67) (xy 194.31 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6815,7 +6855,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 157.48) (xy 260.35 157.48)
+			(xy 256.54 160.02) (xy 259.08 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7395,7 +7435,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 148.59) (xy 198.12 148.59)
+			(xy 189.23 151.13) (xy 196.85 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7425,7 +7465,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 148.59) (xy 238.76 148.59)
+			(xy 233.68 151.13) (xy 237.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +7525,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 151.13) (xy 195.58 151.13)
+			(xy 190.5 153.67) (xy 194.31 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7555,7 +7595,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 148.59) (xy 218.44 148.59)
+			(xy 213.36 151.13) (xy 217.17 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 151.13) (xy 198.12 151.13)
+			(xy 194.31 153.67) (xy 196.85 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8034,7 +8074,7 @@
 		(uuid "0fa888f3-075c-4869-aa12-1b69ec5b0af6")
 	)
 	(label "A+"
-		(at 214.63 151.13 180)
+		(at 213.36 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8064,7 +8104,7 @@
 		(uuid "116cad22-4cca-4be8-9023-7ac622a273bc")
 	)
 	(label "B+"
-		(at 234.95 148.59 180)
+		(at 233.68 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8164,7 +8204,7 @@
 		(uuid "255ace5b-c7d2-4b27-a4fe-f6f0b3b22928")
 	)
 	(label "B-"
-		(at 234.95 151.13 180)
+		(at 233.68 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8333,6 +8373,16 @@
 		)
 		(uuid "45f0df03-2281-4d5a-b5a6-c10022cc01e5")
 	)
+	(label "VCC"
+		(at 157.48 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "466fcbcf-3d3f-4709-816f-94576d72d37c")
+	)
 	(label "B+"
 		(at 35.56 138.43 180)
 		(effects
@@ -8394,7 +8444,7 @@
 		(uuid "5164525c-a0d4-4d49-9387-02c724997651")
 	)
 	(label "NANO_PWR_IN"
-		(at 260.35 157.48 0)
+		(at 259.08 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8814,7 +8864,7 @@
 		(uuid "a66c9af6-6d23-434a-a315-35a27df5d17e")
 	)
 	(label "VIN"
-		(at 190.5 148.59 180)
+		(at 189.23 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8854,7 +8904,7 @@
 		(uuid "aaa78301-45cd-40f8-a986-808ce651fbc6")
 	)
 	(label "A-"
-		(at 214.63 148.59 180)
+		(at 213.36 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9693,84 +9743,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1881e238-3a9c-4690-9422-43b0d6a6071e")
-		(property "Reference" "#PWR010"
-			(at 157.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31fea0b9-9dc5-4b17-9bee-8dc2f5c86f39")
-		)
-		(instances
-			(project "NanoESP_TB67S249FTG_DriverShield"
-				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 44.45 0)
 		(unit 1)
@@ -10044,7 +10016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels"
 			(at 234.95 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10768,7 +10740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "3 k"
 			(at 138.43 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11222,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 243.84 148.59 0)
+		(at 242.57 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11261,7 +11233,7 @@
 		(fields_autoplaced yes)
 		(uuid "350fe771-e215-41cf-a6e5-f8def30a6f49")
 		(property "Reference" "J5"
-			(at 246.38 148.5899 0)
+			(at 245.11 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11272,7 +11244,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 246.38 151.1299 0)
+			(at 245.11 153.6699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11284,7 +11256,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:OST_OSTTE020104"
-			(at 243.84 148.59 0)
+			(at 242.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11295,7 +11267,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://OSTTEXX0104.pdf"
-			(at 243.84 148.59 0)
+			(at 242.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11306,7 +11278,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 148.59 0)
+			(at 242.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,7 +11681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 261.62 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11784,7 +11756,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 223.52 148.59 0)
+		(at 222.25 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11795,7 +11767,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ddb104d-eb13-4163-b706-243cb35fb205")
 		(property "Reference" "J4"
-			(at 226.06 148.5899 0)
+			(at 224.79 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11806,7 +11778,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 226.06 151.1299 0)
+			(at 224.79 153.6699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11818,7 +11790,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:OST_OSTTE020104"
-			(at 223.52 148.59 0)
+			(at 222.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +11801,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://OSTTEXX0104.pdf"
-			(at 223.52 148.59 0)
+			(at 222.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11840,7 +11812,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 148.59 0)
+			(at 222.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11949,7 +11921,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 203.2 148.59 0)
+		(at 201.93 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11960,7 +11932,7 @@
 		(fields_autoplaced yes)
 		(uuid "42b21244-e08d-46c2-9b50-315005eacbe3")
 		(property "Reference" "J3"
-			(at 205.74 148.5899 0)
+			(at 204.47 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11971,7 +11943,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 205.74 151.1299 0)
+			(at 204.47 153.6699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11983,7 +11955,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:OST_OSTTE020104"
-			(at 203.2 148.59 0)
+			(at 201.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +11966,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://OSTTEXX0104.pdf"
-			(at 203.2 148.59 0)
+			(at 201.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,7 +11977,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 148.59 0)
+			(at 201.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,7 +12087,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 195.58 153.67 180)
+		(at 194.31 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12126,7 +12098,7 @@
 		(fields_autoplaced yes)
 		(uuid "46e1f767-8c27-4643-a193-99c24a10df53")
 		(property "Reference" "#FLG01"
-			(at 195.58 155.575 0)
+			(at 194.31 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12137,7 +12109,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 195.58 158.75 0)
+			(at 194.31 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12147,7 +12119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 153.67 0)
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12158,7 +12130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 153.67 0)
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12169,7 +12141,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 153.67 0)
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13142,7 +13114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels"
 			(at 233.68 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13456,7 +13428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "0"
 			(at 106.68 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,8 +13649,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 257.81 152.4 90)
-		(mirror x)
+		(at 256.54 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13688,7 +13659,7 @@
 		(dnp no)
 		(uuid "95f4356a-b37a-46f6-b1d3-581005c45155")
 		(property "Reference" "D2"
-			(at 255.27 150.8124 90)
+			(at 254 156.5276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13699,7 +13670,7 @@
 			)
 		)
 		(property "Value" "B140"
-			(at 255.27 153.3524 90)
+			(at 254 153.9876 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13710,7 +13681,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 257.81 152.4 0)
+			(at 256.54 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13721,7 +13692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 152.4 0)
+			(at 256.54 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13732,7 +13703,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 257.81 152.4 0)
+			(at 256.54 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13743,7 +13714,7 @@
 			)
 		)
 		(property "MPN" "B140-13-F"
-			(at 257.81 152.4 0)
+			(at 256.54 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 151.13 270)
+		(at 267.97 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14740,7 +14711,7 @@
 		(fields_autoplaced yes)
 		(uuid "c73b76d5-1dc2-4883-b390-0fbbede76616")
 		(property "Reference" "#PWR08"
-			(at 262.89 151.13 0)
+			(at 261.62 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14751,7 +14722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 151.1299 90)
+			(at 264.16 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14762,7 +14733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 151.13 0)
+			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14773,7 +14744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 151.13 0)
+			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14784,7 +14755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 151.13 0)
+			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14838,7 +14809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_Nano"
+		(property "Footprint" "footprints_del_proyecto:Arduino_Nano_headers_hembra"
 			(at 229.616 135.636 0)
 			(hide yes)
 			(show_name no)
@@ -15586,7 +15557,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 276.86 148.59 0)
+		(at 275.59 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15597,7 +15568,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9a55200-c194-4b96-abc3-25d9e6beccdf")
 		(property "Reference" "J6"
-			(at 279.4 148.5899 0)
+			(at 278.13 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15608,7 +15579,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 279.4 151.1299 0)
+			(at 278.13 153.6699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15620,7 +15591,7 @@
 			)
 		)
 		(property "Footprint" "footprints_del_proyecto:OST_OSTTE020104"
-			(at 276.86 148.59 0)
+			(at 275.59 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15631,7 +15602,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://OSTTEXX0104.pdf"
-			(at 276.86 148.59 0)
+			(at 275.59 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15642,7 +15613,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 276.86 148.59 0)
+			(at 275.59 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15938,7 +15909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 151.13 270)
+		(at 190.5 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15949,7 +15920,7 @@
 		(fields_autoplaced yes)
 		(uuid "f06eefa4-8a20-42b1-8125-7c51b2882246")
 		(property "Reference" "#PWR02"
-			(at 185.42 151.13 0)
+			(at 184.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15960,7 +15931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 151.1299 90)
+			(at 186.69 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15971,7 +15942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 151.13 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15982,7 +15953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 151.13 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15993,7 +15964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 151.13 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
