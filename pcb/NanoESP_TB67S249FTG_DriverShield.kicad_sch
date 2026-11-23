@@ -5190,6 +5190,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5420,6 +5559,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 219.075 19.05)
@@ -5458,7 +5736,7 @@
 		(uuid "a12c21f4-2127-481a-a3c8-f6cfdb1f7f26")
 	)
 	(rectangle
-		(start 13.97 20.066)
+		(start 13.97 17.78)
 		(end 212.09 63.246)
 		(stroke
 			(width 0)
@@ -5515,7 +5793,7 @@
 	)
 	(text "Configuración del control automático de corriente (AGC)"
 		(exclude_from_sim no)
-		(at 41.402 18.034 0)
+		(at 41.402 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5626,6 +5904,12 @@
 		(uuid "12b0c3d9-a9a3-446c-ac7e-4cb9e8836d73")
 	)
 	(junction
+		(at 173.99 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a363fb-a55b-4491-a52d-b0d2169cc026")
+	)
+	(junction
 		(at 110.49 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5642,6 +5926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15eeb841-6137-41cf-9e06-b4e1ec174cf9")
+	)
+	(junction
+		(at 68.58 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb2af88-0d22-4b0a-a045-6be51536e43a")
 	)
 	(junction
 		(at 49.53 172.72)
@@ -5696,6 +5986,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb24275-6aaa-4dff-9ba4-649b8a18fd5d")
+	)
+	(junction
+		(at 162.56 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "353c3581-af53-4340-8c43-3f59e60eab6c")
+	)
+	(junction
+		(at 82.55 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3908d8f2-da62-4912-b900-f950794342fe")
 	)
 	(junction
 		(at 201.93 49.53)
@@ -5758,10 +6060,10 @@
 		(uuid "5deb0d70-27ec-4bf9-9ae2-5feb63c58002")
 	)
 	(junction
-		(at 68.58 163.83)
+		(at 256.54 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "601c40e9-a592-4f4f-ad5a-0eef3de83fef")
+		(uuid "61505e9c-1d00-4c87-942a-4ea559564532")
 	)
 	(junction
 		(at 127 39.37)
@@ -5786,12 +6088,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b423eb9-50d3-4a15-b588-a23ea6ac6ef0")
-	)
-	(junction
-		(at 82.55 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75f4ddac-5284-4504-94aa-cc91c1116461")
 	)
 	(junction
 		(at 68.58 167.64)
@@ -5840,6 +6136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f235ff-ca67-4349-a516-de5034a249c4")
+	)
+	(junction
+		(at 127 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a020698-3261-47a5-886b-c5610c36f336")
 	)
 	(junction
 		(at 90.17 120.65)
@@ -5914,24 +6216,6 @@
 		(uuid "c848b1c9-5cf5-43fd-9fcd-a6c1fd126b64")
 	)
 	(junction
-		(at 185.42 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb095121-4fd0-4655-8b2c-703fb156892e")
-	)
-	(junction
-		(at 173.99 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc7398f4-6581-4694-a436-15a9a2afaf7b")
-	)
-	(junction
-		(at 127 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd0d41ff-f1c9-43f1-b675-25994a35b778")
-	)
-	(junction
 		(at 116.84 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6002,12 +6286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f425ac19-6e40-487f-8c8c-42170d62e5a1")
-	)
-	(junction
-		(at 162.56 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbc1187c-2055-4208-8b13-aea3164468da")
 	)
 	(junction
 		(at 116.84 185.42)
@@ -6197,6 +6475,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17552cb4-3be3-4654-add7-60f45f2604c9")
+	)
+	(wire
+		(pts
 			(xy 130.81 167.64) (xy 130.81 168.91)
 		)
 		(stroke
@@ -6204,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "19a453a9-6961-4d1c-b132-5cf475ab2716")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19acec1b-2cd1-46c8-a172-4d0edeb3d460")
 	)
 	(wire
 		(pts
@@ -6247,13 +6545,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 186.69 81.28)
+			(xy 182.88 81.28) (xy 186.69 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c046f6b-d46f-42ac-993b-687952c9f940")
+	)
+	(wire
+		(pts
+			(xy 173.99 26.67) (xy 173.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c08cf0c-88c1-452a-8240-5e8cd46c0657")
 	)
 	(wire
 		(pts
@@ -6297,7 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 111.76) (xy 264.16 111.76)
+			(xy 264.16 111.76) (xy 278.13 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6324,16 +6632,6 @@
 			(type default)
 		)
 		(uuid "221b2e91-6441-41fa-a6f6-e91b9189f008")
-	)
-	(wire
-		(pts
-			(xy 127 24.13) (xy 127 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240516b9-ea66-4cac-9833-6bca890cc1d7")
 	)
 	(wire
 		(pts
@@ -6364,16 +6662,6 @@
 			(type default)
 		)
 		(uuid "250a15ef-161a-454b-b456-6bc759d89188")
-	)
-	(wire
-		(pts
-			(xy 270.51 109.22) (xy 270.51 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "272ba2ec-692f-47e6-9129-209a0b601578")
 	)
 	(wire
 		(pts
@@ -6494,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "382b117b-212e-4e1b-8613-601d19ac77cd")
+	)
+	(wire
+		(pts
+			(xy 82.55 26.67) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396e47c8-fb97-4007-9de8-b1b4d0dd0375")
 	)
 	(wire
 		(pts
@@ -6637,16 +6935,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 24.13) (xy 24.13 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c03d5ab-1c93-4645-8593-ba3f1532707f")
-	)
-	(wire
-		(pts
 			(xy 68.58 185.42) (xy 77.47 185.42)
 		)
 		(stroke
@@ -6697,16 +6985,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 162.56) (xy 162.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b55537-eb36-4775-aafd-ef06be93e24a")
-	)
-	(wire
-		(pts
 			(xy 54.61 176.53) (xy 54.61 180.34)
 		)
 		(stroke
@@ -6727,7 +7005,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 252.73 123.19)
+			(xy 247.65 123.19) (xy 252.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6887,16 +7165,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 24.13) (xy 173.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a18f02a-2492-4083-b946-047a98b9e4e9")
-	)
-	(wire
-		(pts
 			(xy 39.37 104.14) (xy 39.37 105.41)
 		)
 		(stroke
@@ -6914,16 +7182,6 @@
 			(type default)
 		)
 		(uuid "6ac78411-9947-47f2-b461-38e772513bbe")
-	)
-	(wire
-		(pts
-			(xy 43.18 24.13) (xy 43.18 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b03102b-1c46-496e-b736-edb980558de0")
 	)
 	(wire
 		(pts
@@ -6964,6 +7222,16 @@
 			(type default)
 		)
 		(uuid "7144db19-848e-4cc6-9b06-7662610aaa37")
+	)
+	(wire
+		(pts
+			(xy 189.23 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c77e86-c11d-4062-89bb-ea1c91592ea1")
 	)
 	(wire
 		(pts
@@ -7147,16 +7415,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 163.83) (xy 68.58 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9665d5b5-ab61-4529-8629-23badcc3181f")
-	)
-	(wire
-		(pts
 			(xy 233.68 31.75) (xy 233.68 29.21)
 		)
 		(stroke
@@ -7164,16 +7422,6 @@
 			(type default)
 		)
 		(uuid "98f0e66c-8960-4e69-bb86-00b97e79baa5")
-	)
-	(wire
-		(pts
-			(xy 271.78 109.22) (xy 270.51 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99373224-3afb-4d3b-8d13-e4eb7bcf0258")
 	)
 	(wire
 		(pts
@@ -7327,16 +7575,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 151.13) (xy 196.85 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf70f30-f4a5-4f04-86e3-93b372805b0b")
-	)
-	(wire
-		(pts
 			(xy 177.8 96.52) (xy 186.69 96.52)
 		)
 		(stroke
@@ -7447,16 +7685,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 24.13) (xy 60.96 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8ec5af-8665-4f18-89d5-3c56825c5928")
-	)
-	(wire
-		(pts
 			(xy 59.69 185.42) (xy 68.58 185.42)
 		)
 		(stroke
@@ -7524,16 +7752,6 @@
 			(type default)
 		)
 		(uuid "c4f4bff2-ddf1-4e33-b887-5efa642979da")
-	)
-	(wire
-		(pts
-			(xy 185.42 81.28) (xy 182.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c548619f-e723-4d27-b347-ed4b47ed3ea3")
 	)
 	(wire
 		(pts
@@ -7614,16 +7832,6 @@
 			(type default)
 		)
 		(uuid "ceafc356-ffa4-4512-ae9d-7f1ccf32dcda")
-	)
-	(wire
-		(pts
-			(xy 82.55 24.13) (xy 82.55 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d042edd6-6d47-464c-be82-ce71848335c6")
 	)
 	(wire
 		(pts
@@ -7777,6 +7985,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 26.67) (xy 127 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08cf41d-82d0-4cb9-8838-fb7fbdc34b66")
+	)
+	(wire
+		(pts
 			(xy 90.17 130.81) (xy 90.17 132.08)
 		)
 		(stroke
@@ -7794,6 +8012,16 @@
 			(type default)
 		)
 		(uuid "e27cd093-0811-49fb-add2-ede33c844834")
+	)
+	(wire
+		(pts
+			(xy 68.58 163.83) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ba25de-b686-4e14-93fb-ce92f58efa6c")
 	)
 	(wire
 		(pts
@@ -7897,16 +8125,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 246.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20483f8-aa42-4c39-88a4-0c7a08b9ca2c")
-	)
-	(wire
-		(pts
 			(xy 123.19 142.24) (xy 129.54 142.24)
 		)
 		(stroke
@@ -7937,16 +8155,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f967f83d-c76a-4492-94c3-720f2853915d")
-	)
-	(wire
-		(pts
 			(xy 90.17 120.65) (xy 93.98 120.65)
 		)
 		(stroke
@@ -7954,6 +8162,16 @@
 			(type default)
 		)
 		(uuid "f9d28c89-9af5-4fed-8f61-66a0203ddf3a")
+	)
+	(wire
+		(pts
+			(xy 264.16 81.28) (xy 269.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd256ce1-8f41-4657-9acb-076cd096251b")
 	)
 	(wire
 		(pts
@@ -8014,16 +8232,6 @@
 			(justify right bottom)
 		)
 		(uuid "10a0c536-4af9-4367-ae12-99825c766b9a")
-	)
-	(label "VCC"
-		(at 127 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11179db9-23f9-4f11-a084-f09843659924")
 	)
 	(label "BOOST"
 		(at 170.18 39.37 180)
@@ -8165,16 +8373,6 @@
 		)
 		(uuid "2b7ff24b-f8ab-4667-a955-ffdeb8aee42e")
 	)
-	(label "VCC"
-		(at 229.87 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d647a86-171f-4f41-ab45-bbbc77745770")
-	)
 	(label "LO1"
 		(at 121.92 86.36 0)
 		(effects
@@ -8265,16 +8463,6 @@
 		)
 		(uuid "3a4caec4-1725-42eb-85c6-c275651a9095")
 	)
-	(label "VCC"
-		(at 82.55 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b22ee12-3305-4d19-bccd-33238f9dd181")
-	)
 	(label "DMODE0"
 		(at 261.62 54.61 180)
 		(effects
@@ -8294,16 +8482,6 @@
 			(justify right bottom)
 		)
 		(uuid "4118b51d-fcdb-4752-a745-2e7b5f24e064")
-	)
-	(label "VCC"
-		(at 93.98 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4206bf4d-d9c2-4a2f-aaa6-a92c926cad25")
 	)
 	(label "LO1"
 		(at 252.73 128.27 180)
@@ -8485,16 +8663,6 @@
 		)
 		(uuid "6d1e21f5-1d44-4bf4-8635-179b3cb3a4c0")
 	)
-	(label "VCC"
-		(at 129.54 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "714cde4a-81ab-4cc4-a84b-1b836a41fb75")
-	)
 	(label "B1"
 		(at 222.25 96.52 0)
 		(effects
@@ -8574,16 +8742,6 @@
 			(justify left bottom)
 		)
 		(uuid "7b5e16e0-0c6c-4a62-9572-efbe93106326")
-	)
-	(label "VCC"
-		(at 134.62 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ba65331-8543-4b48-b024-74a5ff23a37f")
 	)
 	(label "LO2"
 		(at 252.73 130.81 180)
@@ -8765,16 +8923,6 @@
 		)
 		(uuid "a38e06e0-8ce8-42da-af1d-8c8ce976de29")
 	)
-	(label "3V3"
-		(at 222.25 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4515583-3502-4cae-bad5-2bdf35d4bffa")
-	)
 	(label "B1"
 		(at 264.16 109.22 0)
 		(effects
@@ -8784,26 +8932,6 @@
 			(justify left bottom)
 		)
 		(uuid "a5c8e71a-5741-4cb2-acbf-0c3bf5264ae2")
-	)
-	(label "VCC"
-		(at 173.99 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5e2f429-70a1-4d3f-b22d-8a2b692a45d8")
-	)
-	(label "VCC"
-		(at 228.6 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a61a900d-8242-4595-8347-637e65492945")
 	)
 	(label "A+"
 		(at 35.56 113.03 180)
@@ -8895,16 +9023,6 @@
 		)
 		(uuid "b194eee4-27bb-4830-b087-322c8af65715")
 	)
-	(label "VCC"
-		(at 104.14 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b42d5b51-b0cd-46f2-ac8a-ffdff8c0f8db")
-	)
 	(label "CLK"
 		(at 251.46 88.9 180)
 		(effects
@@ -8924,16 +9042,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba67cf11-84e5-4bea-9bb5-d14c2060ee57")
-	)
-	(label "3V3"
-		(at 264.16 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0d0b9bb-d71b-4bec-948f-0cbfe8709f91")
 	)
 	(label "CLIM0"
 		(at 39.37 86.36 180)
@@ -8994,16 +9102,6 @@
 			(justify right bottom)
 		)
 		(uuid "c9fc32e5-fc64-4e94-8161-3dbffb35d2af")
-	)
-	(label "VCC"
-		(at 162.56 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb275928-2e65-4965-9073-0282c08ffe9f")
 	)
 	(label "A7"
 		(at 222.25 119.38 0)
@@ -9075,26 +9173,6 @@
 		)
 		(uuid "d9b25dc8-0a56-4c5a-b721-9eb3b8f13384")
 	)
-	(label "VCC"
-		(at 43.18 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd7e3ab1-e628-4128-9626-58eb1fb9e322")
-	)
-	(label "VCC"
-		(at 256.54 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfe32671-2b85-4990-bede-b79be24587aa")
-	)
 	(label "D7"
 		(at 238.76 25.4 0)
 		(effects
@@ -9125,16 +9203,6 @@
 		)
 		(uuid "f30cd819-3ec6-4c2f-a9b6-a0fcb9829956")
 	)
-	(label "VCC"
-		(at 60.96 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f620b5b5-8004-487c-9596-1f1f5436d78d")
-	)
 	(label "A3"
 		(at 222.25 109.22 0)
 		(effects
@@ -9145,16 +9213,6 @@
 		)
 		(uuid "f9414fbb-fcbd-4e37-8675-16d4bb8d36d2")
 	)
-	(label "VCC"
-		(at 24.13 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff1450d4-e26a-4439-a496-0da5884dd9c4")
-	)
 	(label "A6"
 		(at 222.25 116.84 0)
 		(effects
@@ -9164,6 +9222,84 @@
 			(justify left bottom)
 		)
 		(uuid "ffb6373c-7d50-4412-8863-0db99384d83d")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "009182eb-1ff8-49f9-a58b-bf19d689e964")
+		(property "Reference" "#PWR024"
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3b15647-06df-4de7-b9bd-a0d2f4b476d6")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
@@ -9250,7 +9386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 109.22 90)
+		(at 278.13 111.76 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9261,7 +9397,7 @@
 		(dnp no)
 		(uuid "09a29fa7-7598-42a4-b0fc-7019bd14697a")
 		(property "Reference" "#PWR015"
-			(at 278.13 109.22 0)
+			(at 284.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 109.2199 90)
+			(at 281.94 111.7599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,7 +9420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 109.22 0)
+			(at 278.13 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 109.22 0)
+			(at 278.13 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 109.22 0)
+			(at 278.13 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9483,6 +9619,85 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 256.54 160.02 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10e1c92b-04c9-4281-8a1c-0c0017dde68d")
+		(property "Reference" "#FLG02"
+			(at 254.635 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.73 160.0201 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 256.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa186b54-30f1-463c-8eef-52b7bed6093d")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9759,7 +9974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 83.82 270)
+		(at 246.38 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9769,7 +9984,7 @@
 		(dnp no)
 		(uuid "202bd4cf-f6e4-472d-b775-2a0a3ec5779e")
 		(property "Reference" "#PWR016"
-			(at 240.03 83.82 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9780,7 +9995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 83.8199 90)
+			(at 242.57 86.3599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +10007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 83.82 0)
+			(at 246.38 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 83.82 0)
+			(at 246.38 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +10029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 83.82 0)
+			(at 246.38 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,85 +10624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 185.42 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a77a02c-1edb-4510-a81f-dee5e6139399")
-		(property "Reference" "#FLG02"
-			(at 185.42 75.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 185.4199 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 185.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d97065f0-973b-4bf8-9517-d41fb60c3433")
-		)
-		(instances
-			(project "NanoESP_TB67S249FTG_DriverShield"
-				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 44.45 0)
 		(unit 1)
@@ -10926,7 +11062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO8_DIO"
+		(property "Footprint" "footprints_del_proyecto:SO8_DIO-M"
 			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10989,6 +11125,83 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "339d759f-2db8-4ecd-841b-83a8ca5ea400")
+		(property "Reference" "#FLG04"
+			(at 66.675 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.452 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dcd9229-4d37-42be-a825-e4bb4d9ca302")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -11310,6 +11523,85 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 228.6 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3724b680-f59c-4bbe-b59c-57c44c9552fe")
+		(property "Reference" "#PWR029"
+			(at 232.41 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 224.79 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 228.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f62d303b-d9e0-4d0d-9fea-a01c3079c0c7")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11938,6 +12230,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 256.54 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45665f4e-5243-4d31-9ed6-ea267fe28afb")
+		(property "Reference" "#PWR031"
+			(at 260.35 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 252.73 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 256.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f542225-d8c0-45ec-860a-744f88f67be1")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 194.31 156.21 180)
 		(unit 1)
@@ -12010,6 +12381,85 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 229.87 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47786123-7162-4b77-9386-f5647dce005d")
+		(property "Reference" "#PWR030"
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 226.06 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 229.87 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4031157f-fc51-4efc-b32d-02672d200ca1")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12174,6 +12624,85 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 93.98 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4be5aed5-2bea-4ae1-818d-c9ec65e9d0a3")
+		(property "Reference" "#PWR019"
+			(at 90.17 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 97.79 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 93.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "749af53e-a1cd-4723-b331-35b60f6e8caa")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12360,6 +12889,84 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 173.99 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f236850-4da9-4a8c-8f50-cd00f9367d8e")
+		(property "Reference" "#PWR028"
+			(at 173.99 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 173.99 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15b6adbb-dfb5-4d4e-a2ec-950ffd6502b8")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13018,8 +13625,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 68.58 163.83 90)
+		(lib_id "power:VCC")
+		(at 24.13 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13028,9 +13635,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80565217-13ac-4ff8-970d-c6bba1902306")
-		(property "Reference" "#FLG03"
-			(at 66.675 163.83 0)
+		(uuid "718631b2-402a-470f-b70d-f4c4db8e26bc")
+		(property "Reference" "#PWR023"
+			(at 24.13 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13040,19 +13647,18 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 64.77 163.8299 90)
+		(property "Value" "VCC"
+			(at 24.13 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 163.83 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 163.83 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13073,8 +13679,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 68.58 163.83 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13085,12 +13691,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c78f2be-74a9-4af5-a4bd-44b284920c47")
+			(uuid "c4c0f3fd-b8ef-4bd3-8318-03c01d3d8f3a")
 		)
 		(instances
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
-					(reference "#FLG03")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13169,6 +13775,241 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 162.56 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b56379-b6ab-4141-b200-5b56eb10f5b0")
+		(property "Reference" "#PWR022"
+			(at 162.56 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 162.56 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 162.56 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebedb8b0-afc5-4725-892a-d3a010027484")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 134.62 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83cedb9d-cebd-4789-a5eb-dcadb11d01c3")
+		(property "Reference" "#PWR032"
+			(at 130.81 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 138.43 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f2e6041-5d82-4c56-9f6a-cc7a5db8eeee")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 60.96 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "877136ff-7b83-4592-9423-075c53eb2df9")
+		(property "Reference" "#PWR025"
+			(at 60.96 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 60.96 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "131427c9-88c3-41d4-8a93-a3a9eda3d54d")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13416,6 +14257,84 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 127 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "935cf196-c930-4cce-b005-0b42934d1fd4")
+		(property "Reference" "#PWR027"
+			(at 127 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 127 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 127 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "645e834a-db56-4e6e-aeca-201108d7a2b5")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14168,6 +15087,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 104.14 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46eefc2-3585-4bec-bf6c-86b4ef9e06a4")
+		(property "Reference" "#PWR020"
+			(at 104.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 104.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "439be4c4-8fef-45dd-821d-02b5348d48bc")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "componentes_proyecto:TB67S249FTG_EL")
 		(at 39.37 81.28 0)
 		(unit 1)
@@ -14199,7 +15196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "P-VQFN48-0707-0p50-004_TOS"
+		(property "Footprint" "footprints_del_proyecto:P-VQFN48-0707-0p50-004_TOS-M"
 			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14733,7 +15730,7 @@
 				)
 			)
 		)
-		(property "Value" "Arduino_Nano_ESP32"
+		(property "Value" "Arduino_Nano_ESP32_Headers"
 			(at 204.47 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14981,6 +15978,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4017af-f7ff-41bb-95f3-2bc2c7807563")
+		(property "Reference" "#PWR010"
+			(at 226.06 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.06 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a83bbd2-9c1a-4002-935b-3578222c0fe0")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 180.34 0)
 		(unit 1)
@@ -15079,6 +16154,84 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 82.55 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf96edc7-2117-4bf1-aca5-9041a3038eb7")
+		(property "Reference" "#PWR026"
+			(at 82.55 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 82.55 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 82.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6af3bb2-489c-4c35-90c5-b4b5b7044e4c")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15412,7 +16565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 123.19 270)
+		(at 247.65 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15423,7 +16576,7 @@
 		(fields_autoplaced yes)
 		(uuid "e241d72e-cc72-4c9d-8573-d4f659184322")
 		(property "Reference" "#PWR014"
-			(at 240.03 123.19 0)
+			(at 241.3 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15434,7 +16587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 123.1899 90)
+			(at 243.84 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15445,7 +16598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 123.19 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15456,7 +16609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 123.19 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15467,7 +16620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 123.19 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15915,6 +17068,163 @@
 			(project "NanoESP_TB67S249FTG_DriverShield"
 				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6df3a0e-30ce-47a1-bbad-11af9d18d5d4")
+		(property "Reference" "#PWR021"
+			(at 129.54 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 129.54 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88c3ca42-606f-4dec-9d8b-facd1e16d023")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 269.24 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f790627a-0c1c-4749-9ebf-b0aec434ceed")
+		(property "Reference" "#PWR018"
+			(at 265.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 273.05 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 269.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f429721-0dd5-40d9-9a2b-7add0b744488")
+		)
+		(instances
+			(project "NanoESP_TB67S249FTG_DriverShield"
+				(path "/d261385a-a825-4866-99e9-2a81adfb8079"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
